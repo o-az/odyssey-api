@@ -6,14 +6,14 @@
 
 > **Odyssey** is a testnet open-source Layer 2 from the future, co-designed with the developer tools stack ([Learn more](https://ithaca.xyz/updates/odyssey)).
 
-Links:
+## Links:
   - [API Reference](https://odyssey.evm.workers.dev)
   - [Example Request](https://odyssey.evm.workers.dev/#tag/default/GET/transactions)
   - [Explorer](https://explorer.ithaca.xyz)
   
-## Contributing to this repository
+## Contributing
 
-Install dependencies
+#### Install dependencies
 
 ```shell
 # install / update bun to latest
@@ -26,7 +26,7 @@ bun install
 bun dev
 ```
 
-## Deploy
+#### Deploy
 
 ```shell
 # Authenticate with wrangler
