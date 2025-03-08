@@ -33,7 +33,7 @@ bun dev
 bun x wrangler@latest login
 
 # Deploy
-bun x wrangler@latest deploy --config='wrangler.json' --keep-vars
+bun x wrangler@latest deploy --config='wrangler.json' --keep-vars --var ENVIRONMENT:production
 ```
 
 > [!NOTE]
