@@ -1,0 +1,24 @@
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "odyssey",
+  "minify": true,
+  "keep_vars": true,
+  "workers_dev": true,
+  "main": "./src/index.ts",
+  "compatibility_date": "2025-02-26",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "placement": {
+    "mode": "smart"
+  },
+  "dev": {
+    "port": 6969
+  },
+  "assets": {
+    "directory": "public"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
